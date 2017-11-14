@@ -1,0 +1,17 @@
+{
+  "name": "db_export",
+  "version": "1.0.0",
+  "description": "export data from files to mongodb adtabase",
+  "main": "export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node export.js"
+  },
+  "author": "Groza V.",
+  "license": "MIT",
+  "dependencies": {
+    "json-array-streams": "^1.0.1",
+    "mongoose": "^4.13.1",
+    "stream-json": "^0.5.2"
+  }
+}
